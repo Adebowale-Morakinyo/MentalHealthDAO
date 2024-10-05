@@ -35,16 +35,16 @@ MentalHealthDAO/
 │   ├── main.py  # Entry point for the API
 │   ├── routers/
 │   │   ├── __init__.py
-│   │   ├── auth.py  # Wallet and DID-related routes
+│   │   ├── auth.py  # Decentralized identity routes (DID)
 │   │   └── therapy.py  # Therapy session booking routes
 │   ├── services/
 │   │   ├── __init__.py
-│   │   ├── auth_service.py  # Logic for wallet/DID
-│   │   └── therapy_service.py  # Logic for therapy
+│   │   ├── auth_service.py  # Logic for DID and session management
+│   │   └── therapy_service.py  # Logic for therapy sessions
 │   ├── models/  # Future models here
 │   │   └── __init__.py
 │   └── blockchain/
-│       └── contract_interaction.py  # Interact with smart contracts
+│       └── icp_canister.py  # Interact with ICP canisters directly
 ├── .env  # Environment variables
 ├── requirements.txt  # Python dependencies
 ├── README.md
