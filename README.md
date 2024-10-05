@@ -43,8 +43,8 @@ MentalHealthDAO/
 │   │   └── therapy_service.py  # Logic for therapy sessions
 │   ├── models/  # Future models here
 │   │   └── __init__.py
-│   └── blockchain/
-│       └── icp_canister.py  # Interact with ICP canisters directly
+│   └── icp/
+│       └── canister_interaction.py  # Interact with ICP canisters directly
 ├── .env  # Environment variables
 ├── requirements.txt  # Python dependencies
 ├── README.md
